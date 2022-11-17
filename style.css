@@ -1,0 +1,132 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+.main-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(217, 54%, 11%);
+}
+.container {
+  /* border: 1px solid black; */
+  width: 20%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: hsl(216, 50%, 16%);
+  border-radius: 10px;
+  box-shadow: 10px 20px 50px hsl(216, 69%, 11%);
+}
+.img-container {
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 25px;
+  width: 90%;
+  height: 40vh;
+  background: url(./images/image-equilibrium.jpg);
+  background-repeat: no-repeat;
+  background-size: 108%;
+  background-position: center;
+  border-radius: 8px;
+}
+
+.content-container {
+  width: 90%;
+  height: 15vh;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  /* border: 1px solid black; */
+  color: hsl(0, 0%, 100%);
+  /* padding: 2px; */
+  margin-right: 105px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.content {
+  margin-top: 10px;
+  color: hsl(215, 51%, 70%);
+  font-weight: 400;
+}
+.logo {
+  /* border: 1px solid lawngreen; */
+  width: 100%;
+  /* height: 20vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+}
+.nft-logo {
+  /* border: 1px solid blue; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.ntf-img {
+  width: 10%;
+}
+.amt {
+  margin-left: 10px;
+  color: hsl(178, 100%, 50%);
+  font-size: 15px;
+  font-weight: 300;
+}
+.clock-logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.icon {
+  margin-left: 57px;
+}
+.days {
+  margin-left: 10px;
+  font-weight: 300;
+  color: hsl(215, 51%, 70%);
+}
+.hr {
+  width: 85%;
+  margin-bottom: 5px;
+  /* line-height: 0%; */
+}
+.footer {
+  /* border: 1px solid purple; */
+  margin-top: 5px;
+  width: 90%;
+  height: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.img-avatar {
+  width: 20%;
+  height: 6vh;
+  background: url(./images/image-avatar.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: center;
+}
+.footer-text-1 {
+  color: hsl(215, 32%, 27%);
+  font-weight: 300;
+  font-size: 15px;
+}
+.footer-text-2 {
+  color: white;
+  font-weight: 100;
+  font-size: 15px;
+}
